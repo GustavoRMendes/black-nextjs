@@ -1,0 +1,4 @@
+Usando a Vercel para fazer o deploy na aplicação com NextJS
+Login com Github e import um repositório.
+Criamos o .env.development.local para armazenar a URL PRINCIPAL.
+Criamos pages para navegar sem dar reload.
