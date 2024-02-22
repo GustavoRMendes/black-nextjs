@@ -1,0 +1,14 @@
+Criamos uma página Estática com GetStaticProps  from "next"
+Gerado estaticamente durante a build.
+retornando as props e o revalidate que é o tempo que o elemento vai ter o reload.
+
+export const getStaticProps : GetStaticProps = async() => {
+  const staticData = await fetch(`${process.env.NEXT_PUBLIC_APIURL}/api/hello`).then(res => res.json())
+
+  return {
+    props: {
+      staticData
+    },
+    revalidate: 10
+  }
+}
