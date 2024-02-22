@@ -1,4 +1,4 @@
-Criamos uma página Estática com GetStaticProps  from "next"
+GetStaticProps  from "next"
 Gerado estaticamente durante a build.
 retornando as props e o revalidate que é o tempo que o elemento vai ter o reload.
 
